@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>EMS-JKS</title>
-    <link rel="shortcut icon" href="assets/img/small-logo.png">
+    <link rel="shortcut icon" href="assets/img/logo-jks-small.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
@@ -101,9 +101,9 @@
                         <li class="submenu active">
                             <a href="#"><i class="fas fa-user"></i> <span> Profil</span></a>
                         </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fas fa-certificate"></i> <span> Kursus Khawin</span></a>
-                        </li>
+                        <a href="statusApplication"><li class="submenu">
+                            <i class="fas fa-certificate"></i> <span> Kursus Khawin</span>
+                        </li></a>
                         <li class="submenu">
                             <a href="#"><i class="fas fa-file"></i> <span> Kebenaran Berkahwin</span></a>
                         </li>

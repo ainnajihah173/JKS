@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <div class="main-wrapper">
         <div class="header-left">
             <a href="\" class="logo">
-                <img src="assets/img/logo-staff.png" alt="Logo">
+                <img src="assets/img/logo-user.png" alt="Logo">
             </a>
             <div class="text-after">
                 <h4 class="text">Permohonan Kursus Khawin</h3>
@@ -44,6 +44,10 @@
                                 <li class="notification-message">
                                     <a href="#">
                                         <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="assets/img/profiles/avatar-02.jpg">
+                                            </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details"><span class="noti-title">Carlson Tech</span> has
                                                     approved <span class="noti-title">your estimate</span></p>
@@ -56,6 +60,10 @@
                                 <li class="notification-message">
                                     <a href="#">
                                         <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="assets/img/profiles/avatar-11.jpg">
+                                            </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details"><span class="noti-title">International Software
                                                         Inc</span> has sent you a invoice in the amount of <span
@@ -75,10 +83,10 @@
                 </li>
 
                 <li class="nav-item dropdown new-user-menus">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="dropdown-toggle nav-link">
                         <span class="user-img">
                             <div class="user-text">
-                                <h6>Kakitangan</h6>
+                                <h6>Ali Bin Abu</h6>
                                 <p class="text-muted mb-0">010304-04-0667</p>
                             </div>
                             <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31">
@@ -127,8 +135,13 @@
 
         <div class="page-wrapper">
             <div class="content container-fluid">
-                <!-- Content -->
+                @yield('nav-tab')
+                @yield('daftarKursus')
+                @yield('tangguhKursus') 
+                @yield('documentList') 
+                @yield('defaultOpen') 
             </div>
+
             <footer>
                 <p>Copyright © 2023 EMS-JKS</p>
             </footer>
@@ -143,6 +156,37 @@
     <script src="assets/plugins/apexchart/chart-data.js"></script>
     <script src="assets/js/script.js"></script>
 
+    {{-- <script>
+        function activity(evt, act) {
+          var i, tabcontent, tablinks;
+          
+          document.getElementById("defaultOpen").style.display = "none";
+          
+         
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+           
+          }
+          document.getElementById(act).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        function display(){
+        tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          
+          document.getElementById("defaultOpen").style.display = "block";
+          window.location.reload();
+        }
+        </script> --}}
 </body>
 
 </html>
