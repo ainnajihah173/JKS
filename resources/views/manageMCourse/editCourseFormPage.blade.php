@@ -1,14 +1,12 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
-@section('nav-tab')
+@section('content')
 <div class="tab">
-    <button class="tablinks active" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button>
+    <a href="registrationPage"><button class="tablinks" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button></a>
     <a href="postponePage"><button class="tablinks" onclick="activity(event, 'tangguh-kursus')">Penagguhan Kursus</button></a>
     <a href="documentPage"><button class="tablinks" onclick="activity(event, 'cetak')">Cetak</button></a>
-  </div>
-@stop
+</div>
 
-@section('daftarKursus')
 <form action="/action_page.php">
 <div id="daftarKursus" class="tabcontent">
     <h6><b><i>**Sila isi semua bahagian.( * )adalah mandatori**</i></b></h6>
@@ -49,6 +47,6 @@
 <input type="submit" value="Set Semula">
 <input type="submit" value="Simpan">
 <input type="submit" value="Hantar">
-<input type="submit" value="Kembali">
+<a href="statusApplication"><button type="button">Kembali</button></a>
 </form>
 @stop
