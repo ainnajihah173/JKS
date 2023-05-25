@@ -1,17 +1,14 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
-@section('nav-tab')
+@section('content')
 <div class="tab">
-    <button class="tablinks active" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button>
+    <a href="registrationPage"><button class="tablinks" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button></a>
     <a href="postponePage"><button class="tablinks" onclick="activity(event, 'tangguh-kursus')">Penagguhan Kursus</button></a>
     <a href="documentPage"><button class="tablinks" onclick="activity(event, 'cetak')">Cetak</button></a>
-  </div>
-@stop
+</div>
 
-@section('daftarKursus')
-<form action="/action_page.php">
 <div id="daftarKursus" class="tabcontent">
-    <h6><b><i>*Maklumat Permohonan Kursus</i></b></h6>
+<h6><b><i>Maklumat Permohonan Kursus</i></b></h6>
     <div class="form-group">
         <label for="anjuranlbl">Anjuran :</label>
         <label for="anjuran">bentong</label><br>
@@ -36,10 +33,8 @@
 
         <label for="receiptlbl">Bukti Pembayaran : </label>
         <label for="receipt">receiptttt </label>
-        <input type="file" id="receipt" name="receipt">
     </div>
-</div>
-
-<input type="submit" value="Kembali">
-</form>
+    <a href="statusApplication"><button type="button">Kembali</button></a>
 @stop
+
+

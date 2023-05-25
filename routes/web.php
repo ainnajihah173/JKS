@@ -22,7 +22,7 @@ Route::get('/home', function () {
 });
 
 
-Route::get('statusApplication', function () {
+Route::get('/statusApplication', function () {
     return view('manageMCourse/statusApplication');
 });
 

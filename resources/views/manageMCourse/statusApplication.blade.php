@@ -1,14 +1,12 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
-@section('nav-tab')
+@section('content')
 <div class="tab">
     <a href="registrationPage"><button class="tablinks" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button></a>
     <a href="postponePage"><button class="tablinks" onclick="activity(event, 'tangguh-kursus')">Penagguhan Kursus</button></a>
     <a href="documentPage"><button class="tablinks" onclick="activity(event, 'cetak')">Cetak</button></a>
   </div>
-@stop
 
-@section('defaultOpen')
 <div id="defaultOpen"> 
     <img src="assets/img/logo-jks.png" alt="Logo">
     <h6>TERMA DAN PERATURAN KURSUS PRA-PERKAHWINAN ISLAM<br>JABATAN AGAMA ISLAM PAHANG</h6>
@@ -35,7 +33,7 @@
             <a href="viewCourseForm"><i class="fas fa-eye" style="padding-right:15px;color:green"></i></a>
             <a href="editCourseForm"><i class="fas fa-edit" style="padding-right:15px;color:blue"></i></a>
             <i class="fas fa-trash" style="padding-right:15px;color:red">
-            </i><i class="fas fa-print" ></i></td>
+            <a href="documentPage"></i><i class="fas fa-print" ></i></td></a>
         </tr>
     </table>
     <div class="btn-kursus">

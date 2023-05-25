@@ -1,14 +1,12 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
-@section('nav-tab')
+@section('content')
 <div class="tab">
     <a href="registrationPage"><button class="tablinks" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button></a>
     <button class="tablinks active" onclick="activity(event, 'tangguh-kursus')">Penagguhan Kursus</button>
     <a href="documentPage"><button class="tablinks" onclick="activity(event, 'cetak')">Cetak</button></a>
   </div>
-@stop
 
-@section('tangguhKursus')
 <label for="anjuranlbl">Anjuran: </label>
     <label for="anjuran">Pejabat Agama Islam Bentong</label><br>
 
@@ -55,6 +53,6 @@
         </div>
     </div>
     <input type="submit" value="Hantar">
-    <input type="submit" value="Kembali">
+    <a href="statusApplication"><button type="button">Kembali</button></a>
 </form>
 @stop
