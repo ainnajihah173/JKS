@@ -22,26 +22,34 @@ Route::get('/home', function () {
 });
 
 
-Route::get('statusApplication', function () {
+Route::get('/statusApplication', function () {
     return view('manageMCourse/statusApplication');
 });
 
-Route::get('registrationPage', function () {
+Route::get('/registrationPage', function () {
     return view('manageMCourse/registrationPage');
 });
 
-Route::get('postponePage', function () {
+Route::get('/postponePage', function () {
     return view('manageMCourse/postponePage');
 });
 
-Route::get('documentPage', function () {
+Route::get('/documentPage', function () {
     return view('manageMCourse/documentPage');
 });
 
-Route::get('editCourseForm', function () {
+Route::get('/editCourseForm', function () {
     return view('manageMCourse/editCourseFormPage');
 });
 
-Route::get('viewCourseForm', function () {
+Route::get('/viewCourseForm', function () {
     return view('manageMCourse/viewCourseFormPage');
 });
+
+
+
+
+Route::get('/marriageInfo', function () {
+    return view('manageMRegistration/infoApplicant');
+});
+

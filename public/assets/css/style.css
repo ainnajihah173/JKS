@@ -1256,9 +1256,20 @@ footer p{
     background-color:#fff;
     border-bottom:1px solid #f3f3f4;
     width:93%;
-    height:620px;
+    height:auto;
     border-radius: 20px;
     overflow: auto;
+}
+
+.page-header{
+    margin-bottom:1.875rem
+}
+
+.page-title h6{
+    font-size: 18px;
+    font-weight:500;
+    color:#2c323f;
+    margin-bottom:5px
 }
 
 .notifications{
@@ -1437,6 +1448,9 @@ input[type=submit]{
     float: right;
     font-size: small;
 }
+
+/* Marriage Registration */
+
 
 @media only screen and (min-width:1199.5px) and (max-width:1620px){
 

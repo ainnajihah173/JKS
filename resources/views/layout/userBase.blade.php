@@ -7,7 +7,7 @@
     <title>EMS-JKS</title>
     <link rel="shortcut icon" href="assets/img/logo-jks-small.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -128,6 +128,7 @@
         <div class="page-wrapper">
             <div class="content container-fluid">
                 <!-- Content -->
+                @yield('content')
             </div>
             <footer>
                 <p>Copyright © 2023 EMS-JKS</p>
@@ -136,9 +137,11 @@
     </div>
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/plugins/datatables/datatables.min.js"></script>
+    
 
 </body>
 
