@@ -29,6 +29,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     color:#333;
     font-size:15px;
     height:45px;
+    width:50%;
 }
 .form-control:focus{
     border-color:#3d5ee1;
@@ -75,11 +76,11 @@ textarea.form-control{
     float:left;
 }
 .form-group{
-    margin-bottom:1.25rem;
+    margin-bottom:20px;
 }
 label{
     display:inline-block;
-    margin-bottom:.5rem;
+    margin-bottom:.10px;
 }
 .input-group .form-control{
     height:40px;
@@ -1394,10 +1395,11 @@ footer p{
     background-color: #318DFF;
 }  
 .tabcontent {
-    padding: 6px 12px;
+    padding: 16px 22px;
     border: 1px solid #ccc;
     margin-top: 20px;
     border-radius: 10px;
+    background-color:lightcoral;
 }
 #defaultOpen{
     margin-top: 10px;

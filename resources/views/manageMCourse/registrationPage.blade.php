@@ -1,17 +1,15 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
-@section('nav-tab')
+@section('content')
 <div class="tab">
     <button class="tablinks active" onclick="activity(event, 'daftar-kursus')">Daftar Kursus</button>
     <a href="postponePage"><button class="tablinks" onclick="activity(event, 'tangguh-kursus')">Penagguhan Kursus</button></a>
     <a href="documentPage"><button class="tablinks" onclick="activity(event, 'cetak')">Cetak</button></a>
   </div>
-@stop
 
-@section('daftarKursus')
 <form action="/action_page.php">
 <div id="daftarKursus" class="tabcontent">
-    <h6><b><i>**Sila isi semua bahagian.( * )adalah mandatori**</i></b></h6>
+    <h6><b><i>***Sila isi semua bahagian.( * )adalah mandatori***</i></b></h6>
     <div class="form-group">
         <label class="col-lg-3 col-form-label">Pilih Anjuran *</label>
         <select class="form-control select">
@@ -46,9 +44,9 @@
     </div>
 </div>
 
-<input type="" value="Set Semula">
-<input type="" value="Simpan">
+<input type="reset" value="Set Semula">
+<a href="statusApplication"><button type="button">Simpan</button></a>
 <input type="submit" value="Hantar">
-<input type="" value="Kembali">
+<a href="statusApplication"><button type="button">Kembali</button></a>
 </form>
 @stop

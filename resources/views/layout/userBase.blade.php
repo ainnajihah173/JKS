@@ -34,7 +34,7 @@
                 <!-- notification-->
                 <li class="nav-item dropdown noti-dropdown me-2">
                     <a href="#" class="dropdown-toggle nav-link header-nav-list" data-bs-toggle="dropdown">
-                        <img src="assets/img/icons/header-icon-05.svg" alt="">
+                        <i class="fas fa-bell"></i>
                     </a>
                     <div class="dropdown-menu notifications">
                         <div class="topnav-dropdown-header">
@@ -103,9 +103,9 @@
                         <li class="submenu active">
                             <a href="#"><i class="fas fa-user"></i> <span> Profil</span></a>
                         </li>
-                        <a href="statusApplication"><li class="submenu">
-                            <i class="fas fa-certificate"></i> <span> Kursus Khawin</span>
-                        </li></a>
+                        <li class="">
+                            <a href="statusApplication"><i class="fas fa-certificate"></i> <span> Kursus Khawin</span></a>
+                        </li>
                         <li class="submenu">
                             <a href="#"><i class="fas fa-file"></i> <span> Kebenaran Berkahwin</span></a>
                         </li>
