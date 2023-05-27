@@ -129,7 +129,6 @@
 
         <div class="page-wrapper">
             <div class="content container-fluid">
-                <!-- Content -->
                 @yield('content')
             </div>
             <footer class="fixed-bottom">
