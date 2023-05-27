@@ -53,3 +53,7 @@ Route::get('/marriageInfo', function () {
     return view('manageMRegistration/infoApplicant');
 });
 
+Route::get('/marriageStatus', function () {
+    return view('manageMRegistration/viewMRegApplicant');
+});
+

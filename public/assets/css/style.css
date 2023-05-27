@@ -1251,7 +1251,7 @@ footer p{
 .page-wrapper>.content{
     padding:1.575rem 1.575rem 0;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     background-color:#fff;
     border-bottom:1px solid #f3f3f4;
@@ -1450,6 +1450,23 @@ input[type=submit]{
 }
 
 /* Marriage Registration */
+.align-left {
+    margin-left: 0;
+}
+
+.left{
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+
+.right{
+    margin-left: 20%;
+}
+
+.container a{
+   margin-top: 10%; 
+}
 
 
 @media only screen and (min-width:1199.5px) and (max-width:1620px){
@@ -1546,6 +1563,11 @@ input[type=submit]{
 
     .main-wrapper .header-left .logo{
         display:none;
+    }
+
+    .left{
+        width: 50%;
+        float: left;
     }
 
 }
