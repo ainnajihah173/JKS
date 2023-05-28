@@ -127,11 +127,13 @@
 
         <div class="page-wrapper">
             <div class="content container-fluid">
-                <!-- Content -->
+                
             </div>
+            <!-- 
             <footer>
                 <p>Copyright © 2023 EMS-JKS</p>
             </footer>
+            -->
         </div>
     </div>
 

@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="main-wrapper">
+    <div class="main-wrapper min-vh-100 d-flex flex-column justify-content-between">
         <div class="header-left">
             <a href="\" class="logo">
                 <img src="assets/img/logo-user.png" alt="Logo">
@@ -131,9 +131,11 @@
             <div class="content container-fluid">
                 @yield('content')
             </div>
-            <footer class="fixed-bottom">
+             <!-- 
+            <footer>
                 <p>Copyright © 2023 EMS-JKS</p>
             </footer>
+            -->
         </div>
     </div>
 
