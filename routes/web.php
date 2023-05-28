@@ -57,3 +57,15 @@ Route::get('/marriageStatus', function () {
     return view('manageMRegistration/viewMRegApplicant');
 });
 
+Route::get('/marriageAppView', function () {
+    return view('manageMRegistration/viewAppApplicant');
+});
+
+Route::get('/marriageAppPrint', function () {
+    return view('manageMRegistration/printAppApplicant');
+});
+
+Route::get('/marriageEditInfo', function () {
+    return view('manageMRegistration/editAppApplicant');
+});
+
