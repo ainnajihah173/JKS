@@ -119,7 +119,7 @@
                             <a href="#"><i class="fas fa-comment-medical"></i> <span> Aduan / Khidmat Nasihat</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="{{ route('applyIncentive') }}"><i class="fas fa-money-check-alt"></i> <span> Insentif Khas</span></a>
+                            <a href="#"><i class="fas fa-money-check-alt"></i> <span> Insentif Khas</span></a>
                         </li>
                     </ul>
                 </div>

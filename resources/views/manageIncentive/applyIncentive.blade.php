@@ -9,7 +9,7 @@
 </div>
 @stop
 
-@section('daftarKursus')
+@section('content')
 <form action="/action_page.php">
     <div id="daftarKursus" class="tabcontent">
         <h6><b><i>**Sila isi semua bahagian. (*) adalah mandatori**</i></b></h6>
