@@ -46,6 +46,7 @@ Route::get('/viewCourseForm', function () {
     return view('manageMCourse/viewCourseFormPage');
 });
 
+<<<<<<< Updated upstream
 
 
 
@@ -67,5 +68,12 @@ Route::get('/marriageAppPrint', function () {
 
 Route::get('/marriageEditInfo', function () {
     return view('manageMRegistration/editAppApplicant');
+=======
+Route::get('/manage-incentive', 'InApplicationController@create')->name('applyIncentive');
+Route::post('/manage-incentive', 'InApplicationController@store');
+
+Route::get('/applyIncentive', function () {
+    return view('manageIncentive.applyIncentive');
+>>>>>>> Stashed changes
 });
 
