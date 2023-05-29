@@ -1,8 +1,8 @@
-@extends('layout.kursusBase')
+@extends('layout.userBase')
 
 @section('nav-tab')
 <div class="tab">
-    <button class="tablinks active" onclick="activity(event, 'daftar-kursus')">Maklumat Pemohon</button>
+    <button class="tablinks active" onclick="activity(event, 'maklumat-pemohon')">Maklumat Pemohon</button>
     <button class="tablinks" onclick="activity(event, 'maklumat-pasangan')">Maklumat Pasangan</button>
     <button class="tablinks" onclick="activity(event, 'maklumat-waris')">Maklumat Waris</button>
     <button class="tablinks" onclick="activity(event, 'dokumen')">Dokumen</button>
@@ -18,7 +18,7 @@
             <div class="col-lg-6">
                 <label for="namaPemohon">Nama Pemohon:</label>
                 <input type="text" id="namaPemohon" name="namaPemohon">
-
+                <br>
                 <label for="tarikhLahir">Tarikh Lahir:</label>
                 <input type="date" id="tarikhLahir" name="tarikhLahir">
 
