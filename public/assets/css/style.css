@@ -36,14 +36,13 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
     box-shadow: 0 0 0 1000px #fff inset !important;
 }
-
-.form-control {
-    border: 1px solid #ddd;
-    box-shadow: none;
-    color: #333;
-    font-size: 15px;
-    height: 45px;
-    width: 50%;
+.form-control{
+    border:1px solid #ddd;
+    box-shadow:none;
+    color:#333;
+    font-size:15px;
+    height:45px;
+    width:50%;
 }
 
 .form-control:focus {
@@ -106,18 +105,16 @@ textarea.form-control {
 .navbar-nav>li {
     float: left;
 }
-
-.form-group {
-    margin-bottom: 20px;
+.form-group{
+    margin-bottom:20px;
 }
 
 label {
     display: inline-block;
     margin-bottom: .10px;
 }
-
-.input-group .form-control {
-    height: 40px;
+.input-group .form-control{
+    height:40px;
 }
 
 .input-group .input-height {
@@ -1680,12 +1677,12 @@ footer p {
 .page-wrapper>.content {
     padding: 1.575rem 1.575rem 0;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #f3f3f4;
-    width: 93%;
-    height: auto;
+    background-color:#fff;
+    border-bottom:1px solid #f3f3f4;
+    width:93%;
+    height:620px;
     border-radius: 20px;
     overflow: auto;
 }
@@ -1847,7 +1844,7 @@ footer p {
     border: 1px solid #ccc;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: lightcoral;
+    background-color:lightcoral;
 }
 
 #defaultOpen {
@@ -1895,9 +1892,10 @@ th {
     margin-top: 20px;
     margin-right: 90px;
     background-color: #fff;
+    margin-top: 20px;
+    margin-right: 90px;
 }
-
-input[type=submit] {
+input[type=submit]{
     background-color: #318DFF;
     color: white;
     padding: 8px 8px;
@@ -1906,6 +1904,25 @@ input[type=submit] {
     cursor: pointer;
     float: right;
     font-size: small;
+    width:12%;
+    margin-left: 5px;
+}
+
+input[type=kembali] {
+    background-color: #318DFF;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: small;
+    width:12%;
+    text-align: center;
+}
+.print-list>ul{
+    padding: 30px;
+    list-style: disc;
 }
 
 /* Marriage Registration */

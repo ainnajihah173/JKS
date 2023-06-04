@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <title>EMS-JKS</title>
     <link rel="shortcut icon" href="assets/img/logo-jks-small.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style2.css">
 </head>
 
@@ -114,7 +115,8 @@
                             <a href="#"><i class="fas fa-id-card"></i><span> Permohonan Kad Kahwin</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="fas fa-comment-medical"></i> <span> Aduan / Khidmat Nasihat</span></a>
+                            <a href="#"><i class="fas fa-comment-medical"></i> <span> Aduan / Khidmat
+                                    Nasihat</span></a>
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="fas fa-money-check-alt"></i> <span> Insentif Khas</span></a>
@@ -125,16 +127,19 @@
         </div>
 
 
+
         <div class="page-wrapper">
             <div class="content container-fluid">
-                
+                <!-- Content -->
             </div>
-            <!-- 
-            <footer>
-                <p>Copyright © 2023 EMS-JKS</p>
-            </footer>
-            -->
+            @yield('content')
         </div>
+
+    {{-- <footer>
+                <p>Copyright © 2023 EMS-JKS</p>
+            </footer> --}}
+
+    </div>
     </div>
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
