@@ -1887,16 +1887,13 @@ th {
 }
 
 .btn-kursus {
-<<<<<<< Updated upstream
     float: right;
     color: #66CDAA;
     margin-top: 20px;
     margin-right: 90px;
     background-color: #fff;
-=======
     margin-top: 20px;
     margin-right: 90px;
->>>>>>> Stashed changes
 }
 input[type=submit]{
     background-color: #318DFF;

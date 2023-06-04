@@ -45,7 +45,6 @@ Route::get('/editCourseForm', function () {
 Route::get('/viewCourseForm', function () {
     return view('manageMCourse/viewCourseFormPage');
 });
-=======
 Route::get('/daftar-kursus', function () {
     return view('manageMCourse/courseRegisteration');
 });
@@ -141,7 +140,6 @@ Route::get('/applyIncentive', function () {
 
 });
 
->>>>>>> Stashed changes
 
 Route::get('/marriageInfo', function () {
     return view('manageMRegistration/infoApplicant');
