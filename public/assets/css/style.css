@@ -23,6 +23,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     -webkit-box-shadow:0 0 0 1000px #fff inset!important;
     box-shadow:0 0 0 1000px #fff inset!important;
 }
+<<<<<<< Updated upstream
 .form-control{
     border:1px solid #ddd;
     box-shadow:none;
@@ -30,6 +31,16 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     font-size:15px;
     height:45px;
     width:50%;
+=======
+
+.form-control {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: #333;
+    font-size: 15px;
+    height: 35px;
+    /* width: 50%; */
+>>>>>>> Stashed changes
 }
 .form-control:focus{
     border-color:#3d5ee1;
@@ -75,15 +86,32 @@ textarea.form-control{
 .navbar-nav>li{
     float:left;
 }
+<<<<<<< Updated upstream
 .form-group{
     margin-bottom:20px;
+=======
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+>>>>>>> Stashed changes
 }
 label{
     display:inline-block;
     margin-bottom:.10px;
 }
+<<<<<<< Updated upstream
 .input-group .form-control{
     height:40px;
+=======
+.lbl-spacing{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.input-group .form-control {
+    height: 40px;
+>>>>>>> Stashed changes
 }
 .input-group .input-height{
     height:auto;
@@ -1252,12 +1280,21 @@ footer p{
 .page-wrapper>.content{
     padding:1.575rem 1.575rem 0;
     margin-top: 50px;
+<<<<<<< Updated upstream
     margin-bottom: 10px;
     padding-bottom: 20px;
     background-color:#fff;
     border-bottom:1px solid #f3f3f4;
     width:93%;
     height:620px;
+=======
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f4;
+    width: 93%;
+    height: auto;
+>>>>>>> Stashed changes
     border-radius: 20px;
     overflow: auto;
 }
@@ -1388,7 +1425,12 @@ footer p{
     border: 1px solid #ccc;
     margin-top: 20px;
     border-radius: 10px;
+<<<<<<< Updated upstream
     background-color:lightcoral;
+=======
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
 #defaultOpen{
     margin-top: 10px;
@@ -1423,13 +1465,31 @@ th {
     margin-bottom: 10px;
 }
 .btn-kursus {
+<<<<<<< Updated upstream
     float: right;
 	color: #66CDAA;
     margin-top: 20px;
     margin-right:90px;
     background-color: #fff;
+=======
+    margin-top: 20px;
+    margin-right: 90px;
+>>>>>>> Stashed changes
 }
 input[type=submit]{
+    background-color: #318DFF;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: small;
+    width:12%;
+    margin-left: 5px;
+}
+
+input[type=reset] {
     background-color: #318DFF;
     color: white;
     padding: 8px 8px;
@@ -1438,6 +1498,25 @@ input[type=submit]{
     cursor: pointer;
     float: right;
     font-size: small;
+    width:12%;
+    margin-left: 5px;
+}
+
+input[type=kembali] {
+    background-color: #318DFF;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: small;
+    width:12%;
+    text-align: center;
+}
+.print-list>ul{
+    padding: 30px;
+    list-style: disc;
 }
 
 @media only screen and (min-width:1199.5px) and (max-width:1620px){

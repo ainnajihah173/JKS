@@ -130,9 +130,17 @@
                 <!-- Content -->
                 @yield('content')
             </div>
+<<<<<<< Updated upstream
             <footer>
                 <p>Copyright © 2023 EMS-JKS</p>
             </footer>
+=======
+            
+            {{-- <footer>
+                <p>Copyright © 2023 EMS-JKS</p>
+            </footer> --}}
+            
+>>>>>>> Stashed changes
         </div>
     </div>
 
