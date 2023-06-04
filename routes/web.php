@@ -26,24 +26,23 @@ Route::get('/status-permohonan', function () {
     return view('manageMCourse/statusApplication');
 });
 
-<<<<<<< Updated upstream
-Route::get('registrationPage', function () {
+Route::get('/registrationPage', function () {
     return view('manageMCourse/registrationPage');
 });
 
-Route::get('postponePage', function () {
+Route::get('/postponePage', function () {
     return view('manageMCourse/postponePage');
 });
 
-Route::get('documentPage', function () {
+Route::get('/documentPage', function () {
     return view('manageMCourse/documentPage');
 });
 
-Route::get('editCourseForm', function () {
+Route::get('/editCourseForm', function () {
     return view('manageMCourse/editCourseFormPage');
 });
 
-Route::get('viewCourseForm', function () {
+Route::get('/viewCourseForm', function () {
     return view('manageMCourse/viewCourseFormPage');
 });
 =======
@@ -143,3 +142,29 @@ Route::get('/applyIncentive', function () {
 });
 
 >>>>>>> Stashed changes
+
+Route::get('/marriageInfo', function () {
+    return view('manageMRegistration/infoApplicant');
+});
+
+Route::get('/marriageStatus', function () {
+    return view('manageMRegistration/viewMRegApplicant');
+});
+
+Route::get('/marriageAppView', function () {
+    return view('manageMRegistration/viewAppApplicant');
+});
+
+Route::get('/marriageAppPrint', function () {
+    return view('manageMRegistration/printAppApplicant');
+});
+
+Route::get('/marriageEditInfo', function () {
+    return view('manageMRegistration/editAppApplicant');
+});
+
+Route::get('/applyIncentive', function () {
+    return view('manageIncentive.applyIncentive');
+
+});
+

@@ -131,18 +131,15 @@
         <div class="page-wrapper">
             <div class="content container-fluid">
                 <!-- Content -->
-<<<<<<< Updated upstream
             </div>
-=======
-                @yield('content')
-            </div>
-
-            <!--
->>>>>>> Stashed changes
-            <footer>
-                <p>Copyright © 2023 EMS-JKS</p>
-            </footer>
+            @yield('content')
         </div>
+
+    {{-- <footer>
+                <p>Copyright © 2023 EMS-JKS</p>
+            </footer> --}}
+
+    </div>
     </div>
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
